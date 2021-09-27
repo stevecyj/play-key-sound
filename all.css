@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  background-image: url(/img/audio-2941753_1920.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.key-1,
+.key-2,
+.key-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key {
+  border: 2px solid brown;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 1.5rem;
+  transition: all 0.05s ease;
+  width: 4rem;
+  text-align: center;
+  color: rgb(10, 3, 48);
+  background-color: #1d033500;
+  opacity: 0.8;
+  box-shadow: 0.05rem 0.05rem gray;
+}
+kbd {
+  display: flex;
+  color: greenyellow;
+}
